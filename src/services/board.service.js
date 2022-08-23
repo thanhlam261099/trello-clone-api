@@ -5,7 +5,7 @@ const createNew = async (data) => {
     const result = await BoardModel.createNew(data)
     return result
   } catch (error) {
-    throw new Error(error) 
+    throw new Error(error)
   }
 }
 
