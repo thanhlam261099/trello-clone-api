@@ -24,4 +24,4 @@ const update = async (req, res) => {
   }
 }
 
-export const ColumnController = { createNew }
+export const ColumnController = { createNew, update }
